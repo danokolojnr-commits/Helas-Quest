@@ -1,0 +1,6 @@
+{
+  "name": "Hilas Quest",
+  "description": "Hilas Quest is a premium scholarship and academic opportunity matching hub, featuring personalized lists, interactive details, university profiles, application tracking, and an integrated AI Academic Advisor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+} 

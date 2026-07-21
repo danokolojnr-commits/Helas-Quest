@@ -1,0 +1,46 @@
+{
+  "collections": [
+    {
+      "name": "users",
+      "fields": [
+        { "name": "uid", "type": "string" },
+        { "name": "email", "type": "string" },
+        { "name": "name", "type": "string" },
+        { "name": "createdAt", "type": "timestamp" }
+      ],
+      "rules": ["read", "write"]
+    },
+    {
+      "name": "applications",
+      "fields": [
+        { "name": "id", "type": "string" },
+        { "name": "userId", "type": "string" },
+        { "name": "scholarshipId", "type": "string" },
+        { "name": "status", "type": "string" },
+        { "name": "progress", "type": "number" },
+        { "name": "nextDeadline", "type": "string" },
+        { "name": "lastUpdated", "type": "string" }
+      ],
+      "rules": ["read", "write"]
+    },
+    {
+      "name": "tasks",
+      "fields": [
+        { "name": "id", "type": "string" },
+        { "name": "userId", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "dueDate", "type": "string" },
+        { "name": "completed", "type": "boolean" }
+      ],
+      "rules": ["read", "write"]
+    },
+    {
+      "name": "bookmarks",
+      "fields": [
+        { "name": "userId", "type": "string" },
+        { "name": "scholarshipId", "type": "string" }
+      ],
+      "rules": ["read", "write"]
+    }
+  ]
+}
